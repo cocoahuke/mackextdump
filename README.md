@@ -42,6 +42,7 @@ Tested on Macos 10.12.1
 **Example to use**
 
 ```
+...
 ******** 43:com.apple.AMDRadeonAccelerator *******
 **/Users/huke/Desktop/mackext_copy/10_12_1_kext/AMDRadeonX3000.kext/Contents/MacOS/AMDRadeonX3000**
 
@@ -60,4 +61,5 @@ AMDR8xxGLContext_getTargetAndMethodForIndex
 IOAccelContext2_getOwningTask
 IOAccelContext2_getGPUTask
 IOAccelContext2_getOwningTaskPid
+...
 ```
