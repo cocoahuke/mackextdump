@@ -1,5 +1,5 @@
 # machkextdump
-Dump Kext information from Macos. Support batch analysis The disassembly framework used is [Capstone](http://www.capstone-engine.org/)
+Dump Kext information from Macos. Support batch analysis. The disassembly framework used is [Capstone](http://www.capstone-engine.org/)
 
 [![Contact](https://img.shields.io/badge/contact-@cocoahuke-fbb52b.svg?style=flat)](https://twitter.com/cocoahuke) [![build](https://travis-ci.org/cocoahuke/ioskextdump_32.svg?branch=master)](https://github.com/cocoahuke/machkextdump) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cocoahuke/ioskextdump_32/blob/master/LICENSE) [![paypal](https://img.shields.io/badge/Donate-PayPal-039ce0.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EQDXSYW8Z23UY)
 
