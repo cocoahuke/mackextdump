@@ -886,11 +886,10 @@ void parse_symbols(void *buf){
                     if(relo_info->r_pcrel==0){
                         memset((char*)buf+relo_info->r_address,0xff,sizeof(void*));
                     }
-                    else{
+                    else if(relo_info->r_extern){
                         char *def_str = (char*)[tmp_symsname[relo_info->r_symbolnum] unsignedLongLongValue];
                         [kernel_exportSym setObject:[NSString stringWithUTF8String:def_str] forKey:[NSNumber numberWithUnsignedLongLong:relo_info->r_address]];
                     }
-                    char *def_str = (char*)[tmp_symsname[relo_info->r_symbolnum] unsignedLongLongValue];
                 }
                 //printf("patch %lu place for 0xff instead\n",(unsigned long)[tmp_symsname count]);
                 
