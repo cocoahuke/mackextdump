@@ -3,9 +3,11 @@ Dump Kext information from Macos. Support batch analysis. The disassembly framew
 
 [![Contact](https://img.shields.io/badge/contact-@cocoahuke-fbb52b.svg?style=flat)](https://twitter.com/cocoahuke) [![build](https://travis-ci.org/cocoahuke/mackextdump.svg?branch=master)](https://github.com/cocoahuke/machkextdump) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cocoahuke/machkextdump/blob/master/LICENSE) [![paypal](https://img.shields.io/badge/Donate-PayPal-039ce0.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EQDXSYW8Z23UY)
 
-###Dump Kext info For iOS:
+##### Dump Kext info For iOS:
 **32bit(arm):  [ioskextdump_32](https://github.com/cocoahuke/ioskextdump_32)**  
 **64bit(aarch64):  [ioskextdump](https://github.com/cocoahuke/ioskextdump)**
+##### 64bit version of iOS10:
+**64bit(arm):  [ioskextdump_ios10](https://github.com/cocoahuke/ioskextdump_ios10)**
 
 # How to use
 
